@@ -1,59 +1,274 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+╔════════════════════════════════════════════════════════════╗
+║                    🌸 LARAVEL CHIRPER 🌸                 ║
+║              Project Pemrograman Web Lanjut               ║
+╚════════════════════════════════════════════════════════════╝
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+👩‍💻 IDENTITAS
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Nama        : Halena Kamila Madani
+Mata Kuliah : Pemrograman Web Lanjut
+Project     : Laravel Chirper
+Framework   : Laravel
+Database    : SQLite
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+📌 DESKRIPSI PROJECT
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Laravel Chirper adalah aplikasi web sederhana berbasis Laravel
+yang dibuat untuk mempraktikkan konsep MVC, database, model
+Eloquent, CRUD, validasi form, dan autentikasi dasar.
 
-## Laravel Sponsors
+Aplikasi ini memungkinkan user untuk membuat akun, login,
+membuat chirp, mengedit chirp, menghapus chirp, logout, dan
+melihat feed chirp dari user lain.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Project ini dibuat sebagai hasil praktik pembelajaran Laravel
+pada mata kuliah Pemrograman Web Lanjut.
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## Contributing
+✨ FITUR APLIKASI
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+🌷 Menampilkan feed chirp
+🌷 Menambahkan chirp baru
+🌷 Mengedit chirp
+🌷 Menghapus chirp
+🌷 Registrasi user
+🌷 Login user
+🌷 Logout user
+🌷 Validasi input form
+🌷 Proteksi route menggunakan middleware
+🌷 Chirp tersimpan berdasarkan user yang sedang login
+🌷 User hanya dapat mengedit dan menghapus chirp miliknya sendiri
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## Security Vulnerabilities
+🔐 AKUN DEMO
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Email    : halena@gmail.com
+Password : password123
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🛠️ TEKNOLOGI YANG DIGUNAKAN
+
+Laravel
+PHP
+Blade Template
+Eloquent ORM
+SQLite
+Tailwind CSS
+DaisyUI
+Git
+GitHub
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🧩 KONSEP YANG DITERAPKAN
+
+Project ini menerapkan konsep MVC atau Model View Controller.
+
+Model digunakan untuk mengelola data dan relasi database.
+View digunakan untuk menampilkan halaman web kepada user.
+Controller digunakan untuk mengatur request, validasi, proses
+data, dan menghubungkan model dengan view.
+
+Selain itu, project ini juga menerapkan konsep CRUD, yaitu
+Create, Read, Update, dan Delete pada data chirp.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🗃️ DATABASE
+
+Aplikasi ini menggunakan database SQLite.
+
+Tabel utama yang digunakan adalah users dan chirps.
+
+Tabel users digunakan untuk menyimpan data pengguna.
+Tabel chirps digunakan untuk menyimpan data pesan atau chirp.
+
+Relasi yang digunakan:
+
+1 User dapat memiliki banyak Chirp.
+1 Chirp dimiliki oleh 1 User.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 CARA MENJALANKAN PROJECT
+
+1. Clone repository dari GitHub
+
+   git clone https://github.com/username/nama-repository.git
+
+2. Masuk ke folder project
+
+   cd nama-repository
+
+3. Install dependency PHP
+
+   composer install
+
+4. Install dependency Node.js
+
+   npm install
+
+5. Salin file environment
+
+   copy .env.example .env
+
+6. Generate application key
+
+   php artisan key:generate
+
+7. Buat database SQLite
+
+   type nul > database/database.sqlite
+
+8. Atur database pada file .env
+
+   DB_CONNECTION=sqlite
+
+9. Jalankan migration
+
+   php artisan migrate
+
+10. Jalankan server Laravel
+
+   php artisan serve
+
+11. Buka aplikasi di browser
+
+   http://127.0.0.1:8000
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🧪 CARA MENGGUNAKAN APLIKASI
+
+Buka halaman utama aplikasi melalui browser.
+
+Klik tombol Sign Up untuk membuat akun baru.
+
+Setelah register berhasil, user akan otomatis login.
+
+User dapat menulis chirp melalui form yang tersedia.
+
+Chirp yang dibuat akan muncul di halaman feed.
+
+User dapat mengedit chirp miliknya sendiri melalui tombol Edit.
+
+User dapat menghapus chirp miliknya sendiri melalui tombol Delete.
+
+User dapat keluar dari akun menggunakan tombol Logout.
+
+User dapat login kembali melalui tombol Sign In.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔒 SISTEM AUTENTIKASI
+
+Aplikasi ini memiliki sistem autentikasi dasar.
+
+User dapat melakukan register, login, dan logout.
+
+Password user disimpan secara aman menggunakan fitur Hash dari
+Laravel.
+
+Route tertentu dilindungi menggunakan middleware auth sehingga
+hanya user yang sudah login yang dapat membuat, mengedit, dan
+menghapus chirp.
+
+Middleware guest digunakan agar halaman login dan register hanya
+dapat diakses oleh user yang belum login.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔄 CRUD CHIRP
+
+Create
+User dapat membuat chirp baru melalui form.
+
+Read
+Semua chirp ditampilkan pada halaman feed.
+
+Update
+User dapat mengedit chirp miliknya sendiri.
+
+Delete
+User dapat menghapus chirp miliknya sendiri.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ STATUS PENGERJAAN
+
+What are we building?                  : Selesai
+Setting up your Laravel project        : Selesai
+Your first route                       : Selesai
+Deploying your app                     : Selesai
+What is MVC?                           : Selesai
+Working with the database              : Selesai
+Our first model                        : Selesai
+Showing the feed                       : Selesai
+Creating and storing Chirps            : Selesai
+Edit and delete Chirps                 : Selesai
+Basic authentication: Registration     : Selesai
+Basic authentication: Login/Logout     : Selesai
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📝 CATATAN
+
+File dan folder berikut tidak perlu di-upload ke GitHub:
+
+.env
+vendor
+node_modules
+database/database.sqlite
+
+File tersebut tidak perlu diunggah karena berisi konfigurasi lokal,
+dependency, dan database lokal.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🌼 KESIMPULAN
+
+Project Laravel Chirper berhasil dibuat dengan menerapkan konsep
+MVC, routing, controller, database migration, model Eloquent,
+relasi antar tabel, CRUD, validasi form, middleware, dan
+autentikasi dasar.
+
+Aplikasi ini dapat digunakan oleh user untuk register, login,
+membuat chirp, mengedit chirp, menghapus chirp, dan logout.
+
+Dengan project ini, pemahaman dasar pengembangan aplikasi web
+menggunakan Laravel menjadi lebih terstruktur dan mudah dipahami.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+👑 PEMBUAT
+
+Halena Kamila Madani
+Pemrograman Web Lanjut
+Laravel Chirper Project
+
+╔════════════════════════════════════════════════════════════╗
+║                 Terima kasih sudah mencoba                ║
+║                    Laravel Chirper 🌸                     ║
+╚════════════════════════════════════════════════════════════╝
