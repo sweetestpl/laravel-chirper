@@ -1,62 +1,66 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-                    🌸 LARAVEL CHIRPER Project Pemrograman Web Lanjut 🌸
+# 🌸 Laravel Chirper
 
+<p align="center">
+  <strong>Project Pemrograman Web Lanjut</strong>
+</p>
 
-👩‍💻 IDENTITAS
+---
 
-Nama        : Halena Kamila Madani
-Mata Kuliah : Pemrograman Web Lanjut
-Project     : Laravel Chirper
-Framework   : Laravel
-Database    : SQLite
+## 👩‍💻 Identitas
 
+| Keterangan | Data |
+|---|---|
+| Nama | Halena Kamila Madani |
+| Mata Kuliah | Pemrograman Web Lanjut |
+| Project | Laravel Chirper |
+| Framework | Laravel |
+| Database | SQLite |
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+---
 
-📌 DESKRIPSI PROJECT
+## 📌 Deskripsi Project
 
-Laravel Chirper adalah aplikasi web sederhana berbasis Laravel
-yang dibuat untuk mempraktikkan konsep MVC, database, model
-Eloquent, CRUD, validasi form, dan autentikasi dasar.
+Laravel Chirper adalah aplikasi web sederhana berbasis Laravel yang dibuat untuk mempraktikkan konsep:
 
-Aplikasi ini memungkinkan user untuk membuat akun, login,
-membuat chirp, mengedit chirp, menghapus chirp, logout, dan
-melihat feed chirp dari user lain.
+- Model View Controller
+- Database
+- Model Eloquent
+- Relasi antar tabel
+- CRUD
+- Validasi form
+- Middleware
+- Autentikasi dasar
 
-Project ini dibuat sebagai hasil praktik pembelajaran Laravel
-pada mata kuliah Pemrograman Web Lanjut.
+Aplikasi ini memungkinkan pengguna untuk membuat akun, login, membuat chirp, melihat feed chirp, mengedit chirp, menghapus chirp, dan logout.
 
+Project ini dibuat sebagai hasil praktik pembelajaran Laravel pada mata kuliah **Pemrograman Web Lanjut**.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+---
 
-✨ FITUR APLIKASI
+## ✨ Fitur Aplikasi
 
-🌷 Menampilkan feed chirp
-🌷 Menambahkan chirp baru
-🌷 Mengedit chirp
-🌷 Menghapus chirp
-🌷 Registrasi user
-🌷 Login user
-🌷 Logout user
-🌷 Validasi input form
-🌷 Proteksi route menggunakan middleware
-🌷 Chirp tersimpan berdasarkan user yang sedang login
-🌷 User hanya dapat mengedit dan menghapus chirp miliknya sendiri
+- Menampilkan daftar chirp pada halaman feed
+- Menambahkan chirp baru melalui form
+- Mengedit chirp yang dimiliki user
+- Menghapus chirp yang dimiliki user
+- Registrasi user baru
+- Login user
+- Logout user
+- Validasi input form
+- Proteksi route menggunakan middleware
+- Menyimpan chirp berdasarkan user yang sedang login
+- User hanya dapat mengedit dan menghapus chirp miliknya sendiri
 
+---
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## 🔐 Akun Demo
 
-🔐 AKUN DEMO
-
+```text
 Email    : halena@gmail.com
 Password : password123
-
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-🛠️ TEKNOLOGI YANG DIGUNAKAN
-
+🛠️ Teknologi yang Digunakan
 Laravel
 PHP
 Blade Template
@@ -66,169 +70,123 @@ Tailwind CSS
 DaisyUI
 Git
 GitHub
+🧩 Konsep yang Diterapkan
 
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-🧩 KONSEP YANG DITERAPKAN
-
-Project ini menerapkan konsep MVC atau Model View Controller.
+Project ini menerapkan konsep MVC, yaitu Model View Controller.
 
 Model digunakan untuk mengelola data dan relasi database.
-View digunakan untuk menampilkan halaman web kepada user.
-Controller digunakan untuk mengatur request, validasi, proses
-data, dan menghubungkan model dengan view.
 
-Selain itu, project ini juga menerapkan konsep CRUD, yaitu
-Create, Read, Update, dan Delete pada data chirp.
+View digunakan untuk menampilkan halaman web kepada pengguna.
 
+Controller digunakan untuk mengatur request, validasi, proses data, dan menghubungkan model dengan view.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Selain MVC, project ini juga menerapkan konsep CRUD.
 
-🗃️ DATABASE
+Operasi	Keterangan
+Create	User dapat membuat chirp baru
+Read	User dapat melihat daftar chirp
+Update	User dapat mengedit chirp miliknya
+Delete	User dapat menghapus chirp miliknya
+🗃️ Database
 
 Aplikasi ini menggunakan database SQLite.
 
-Tabel utama yang digunakan adalah users dan chirps.
+Tabel utama yang digunakan:
 
-Tabel users digunakan untuk menyimpan data pengguna.
-Tabel chirps digunakan untuk menyimpan data pesan atau chirp.
+Tabel	Fungsi
+users	Menyimpan data pengguna
+chirps	Menyimpan data chirp
 
-Relasi yang digunakan:
+Relasi database:
 
-1 User dapat memiliki banyak Chirp.
-1 Chirp dimiliki oleh 1 User.
+1 User dapat memiliki banyak Chirp
+1 Chirp dimiliki oleh 1 User
+🚀 Cara Menjalankan Project
 
+Clone repository dari GitHub:
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+git clone https://github.com/username/nama-repository.git
 
-🚀 CARA MENJALANKAN PROJECT
+Masuk ke folder project:
 
-1. Clone repository dari GitHub
+cd nama-repository
 
-   git clone https://github.com/username/nama-repository.git
+Install dependency PHP:
 
-2. Masuk ke folder project
+composer install
 
-   cd nama-repository
+Install dependency Node.js:
 
-3. Install dependency PHP
+npm install
 
-   composer install
+Salin file environment:
 
-4. Install dependency Node.js
+copy .env.example .env
 
-   npm install
+Generate application key:
 
-5. Salin file environment
+php artisan key:generate
 
-   copy .env.example .env
+Buat database SQLite:
 
-6. Generate application key
+type nul > database/database.sqlite
 
-   php artisan key:generate
+Atur database pada file .env:
 
-7. Buat database SQLite
+DB_CONNECTION=sqlite
 
-   type nul > database/database.sqlite
+Jalankan migration:
 
-8. Atur database pada file .env
+php artisan migrate
 
-   DB_CONNECTION=sqlite
+Jalankan server Laravel:
 
-9. Jalankan migration
+php artisan serve
 
-   php artisan migrate
+Buka aplikasi di browser:
 
-10. Jalankan server Laravel
-
-   php artisan serve
-
-11. Buka aplikasi di browser
-
-   http://127.0.0.1:8000
-
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-🧪 CARA MENGGUNAKAN APLIKASI
-
+http://127.0.0.1:8000
+🧪 Cara Menggunakan Aplikasi
 Buka halaman utama aplikasi melalui browser.
-
 Klik tombol Sign Up untuk membuat akun baru.
-
-Setelah register berhasil, user akan otomatis login.
-
-User dapat menulis chirp melalui form yang tersedia.
-
-Chirp yang dibuat akan muncul di halaman feed.
-
+Setelah registrasi berhasil, user otomatis login.
+User dapat menulis chirp melalui form pada halaman feed.
+Chirp yang dibuat akan langsung tampil pada halaman feed.
 User dapat mengedit chirp miliknya sendiri melalui tombol Edit.
-
 User dapat menghapus chirp miliknya sendiri melalui tombol Delete.
-
 User dapat keluar dari akun menggunakan tombol Logout.
-
 User dapat login kembali melalui tombol Sign In.
-
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-🔒 SISTEM AUTENTIKASI
+🔒 Sistem Autentikasi
 
 Aplikasi ini memiliki sistem autentikasi dasar.
 
 User dapat melakukan register, login, dan logout.
 
-Password user disimpan secara aman menggunakan fitur Hash dari
-Laravel.
+Password user disimpan secara aman menggunakan fitur Hash dari Laravel.
 
-Route tertentu dilindungi menggunakan middleware auth sehingga
-hanya user yang sudah login yang dapat membuat, mengedit, dan
-menghapus chirp.
+Session dibuat ketika user berhasil login.
 
-Middleware guest digunakan agar halaman login dan register hanya
-dapat diakses oleh user yang belum login.
+Session akan dihapus ketika user melakukan logout.
 
+Route tertentu dilindungi menggunakan middleware auth, sehingga hanya user yang sudah login yang dapat membuat, mengedit, dan menghapus chirp.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Middleware guest digunakan agar halaman login dan register hanya dapat diakses oleh user yang belum login.
 
-🔄 CRUD CHIRP
-
-Create
-User dapat membuat chirp baru melalui form.
-
-Read
-Semua chirp ditampilkan pada halaman feed.
-
-Update
-User dapat mengedit chirp miliknya sendiri.
-
-Delete
-User dapat menghapus chirp miliknya sendiri.
-
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-✅ STATUS PENGERJAAN
-
-What are we building?                  : Selesai
-Setting up your Laravel project        : Selesai
-Your first route                       : Selesai
-Deploying your app                     : Selesai
-What is MVC?                           : Selesai
-Working with the database              : Selesai
-Our first model                        : Selesai
-Showing the feed                       : Selesai
-Creating and storing Chirps            : Selesai
-Edit and delete Chirps                 : Selesai
-Basic authentication: Registration     : Selesai
-Basic authentication: Login/Logout     : Selesai
-
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-📝 CATATAN
+✅ Status Pengerjaan
+Modul	Status
+What are we building?	Selesai
+Setting up your Laravel project	Selesai
+Your first route	Selesai
+Deploying your app	Selesai
+What is MVC?	Selesai
+Working with the database	Selesai
+Our first model	Selesai
+Showing the feed	Selesai
+Creating and storing Chirps	Selesai
+Edit and delete Chirps	Selesai
+Basic authentication: Registration	Selesai
+Basic authentication: Login/Logout	Selesai
+📝 Catatan
 
 File dan folder berikut tidak perlu di-upload ke GitHub:
 
@@ -237,35 +195,18 @@ vendor
 node_modules
 database/database.sqlite
 
-File tersebut tidak perlu diunggah karena berisi konfigurasi lokal,
-dependency, dan database lokal.
+File tersebut tidak perlu diunggah karena berisi konfigurasi lokal, dependency, dan database lokal.
 
+🌼 Kesimpulan
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Project Laravel Chirper berhasil dibuat dengan menerapkan konsep MVC, routing, controller, database migration, model Eloquent, relasi antar tabel, CRUD, validasi form, middleware, dan autentikasi dasar.
 
-🌼 KESIMPULAN
+Aplikasi ini dapat digunakan oleh user untuk register, login, membuat chirp, melihat feed chirp, mengedit chirp, menghapus chirp, dan logout.
 
-Project Laravel Chirper berhasil dibuat dengan menerapkan konsep
-MVC, routing, controller, database migration, model Eloquent,
-relasi antar tabel, CRUD, validasi form, middleware, dan
-autentikasi dasar.
+Dengan project ini, pemahaman dasar pengembangan aplikasi web menggunakan Laravel menjadi lebih terstruktur, praktis, dan mudah dipahami.
 
-Aplikasi ini dapat digunakan oleh user untuk register, login,
-membuat chirp, mengedit chirp, menghapus chirp, dan logout.
-
-Dengan project ini, pemahaman dasar pengembangan aplikasi web
-menggunakan Laravel menjadi lebih terstruktur dan mudah dipahami.
-
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-👑 PEMBUAT
+👑 Pembuat
 
 Halena Kamila Madani
 Pemrograman Web Lanjut
 Laravel Chirper Project
-
-╔════════════════════════════════════════════════════════════╗
-║                 Terima kasih sudah mencoba                ║
-║                    Laravel Chirper 🌸                     ║
-╚════════════════════════════════════════════════════════════╝
